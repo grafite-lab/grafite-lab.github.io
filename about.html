@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us — Grafite Lab</title>
+<meta name="description" content="About Grafite Lab :: the people behind an independent, student led research engineering community and micro grant fund.">
+<link rel="icon" type="image/png" href="favicon.png">
+<meta name="theme-color" content="#1656cc">
+<style>
+body{
+    max-width:640px;
+    margin:0 auto;
+    padding:6em 1.5em 8em;
+    font-family:Georgia, serif;
+    font-size:17px;
+    line-height:1.6;
+    color:#292929;
+    background:#f5f5f5;
+  }
+h1{
+    font-size:1.4em;
+    font-weight:normal;
+    display:flex;
+    align-items:center;
+    gap:.5em;
+  }
+h1 img{
+    width:1.4em;
+    height:1.4em;
+  }
+a{color:#1656cc}
+nav{
+    display:flex;
+    gap:1.5em;
+    margin:-2.5em 0 2.5em;
+    font-size:.95em;
+  }
+nav a{
+    color:#292929;
+    text-decoration:none;
+    padding-bottom:.15em;
+    border-bottom:2px solid transparent;
+  }
+nav a:hover, nav a.active{
+    color:#1656cc;
+    border-bottom-color:#1656cc;
+  }
+.people{
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:1.5em;
+    margin:2em 0;
+    padding:0;
+    list-style:none;
+  }
+.people li{
+    text-align:center;
+  }
+.people img{
+    width:64px;
+    height:64px;
+    object-fit:cover;
+    border-radius:50%;
+    background:#e2e2e2;
+    display:block;
+    margin:0 auto;
+  }
+.people .name{
+    margin-top:.6em;
+    font-size:.85em;
+  }
+.socials{
+    display:flex;
+    justify-content:center;
+    gap:.4em;
+    margin-top:.5em;
+    padding:0;
+    list-style:none;
+  }
+.socials a{
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    background:#fff;
+    border:1px solid #e0e0e0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+.socials a:hover{
+    border-color:#1656cc;
+  }
+.socials svg{
+    width:12px;
+    height:12px;
+    fill:#292929;
+  }
+.socials a:hover svg{
+    fill:#1656cc;
+  }
+@media (max-width:480px){
+.people{grid-template-columns:repeat(2, 1fr)}
+  }
+@media (max-width:480px){
+body{font-size:17px;padding:4em 1.25em 6em}
+  }
+</style>
+</head>
+<body>
+<nav><a href="index.html">Home</a><a href="about.html" class="active">About Us</a></nav>
+<h1><img src="logo.png" alt="">About Us</h1>
+
+<p>Grafite Lab is run by a small group of people who got tired of watching good ideas die from lack of trust, money, or a place to start.</p>
+
+<ul class="people">
+  <li>
+    <img src="logos/logo1.jpeg" alt="Sagnik Bhattacharjee">
+    <div class="name">Sagnik Bhattacharjee</div>
+    <ul class="socials">
+      <li><a href="https://x.com/datavorous_" target="_blank" rel="noopener" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.6 8.7L23.3 22H16.7l-5.2-6.8L5.5 22H2.4l8.1-9.3L1.7 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.9L7.4 4H5.4l12.3 16z"/></svg></a></li>
+      </ul>
+  </li>
+  <li>
+    <img src="logos/logo2.jpeg" alt="Angad Basandrai">
+    <div class="name">Angad Basandrai</div>
+    <ul class="socials">
+      <li><a href="https://x.com/AngadBasandrai" target="_blank" rel="noopener" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.6 8.7L23.3 22H16.7l-5.2-6.8L5.5 22H2.4l8.1-9.3L1.7 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.9L7.4 4H5.4l12.3 16z"/></svg></a></li>
+      <li><a href="mailto:angadbasandrai@gmail.com" aria-label="Mail"><svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm2 2v.3l8 6.2 8-6.2V6H4zm16 3.1-7.4 5.7a1 1 0 0 1-1.2 0L4 9.1V18h16V9.1z"/></svg></a></li>
+      </ul>
+  </li>
+  <li>
+    <img src="logos/logo3.jpeg" alt="Ahilan Bhattacharya">
+    <div class="name">Ahilan Bhattacharya</div>
+    <ul class="socials">
+      <li><a href="https://x.com/AhilanBHATTACH1" target="_blank" rel="noopener" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.6 8.7L23.3 22H16.7l-5.2-6.8L5.5 22H2.4l8.1-9.3L1.7 2h6.8l4.7 6.2L18.9 2zm-1.2 18h1.9L7.4 4H5.4l12.3 16z"/></svg></a></li>
+      </ul>
+  </li>
+  <li>
+    <img src="logos/logo4.jpeg" alt="Abhinaba Chowdhury">
+    <div class="name">Abhinaba Chowdhury</div>
+    <ul class="socials">
+    </ul>
+  </li>
+</ul>
+
+</body>
+</html>
